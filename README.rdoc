@@ -17,7 +17,7 @@ Activitys todo:
 ==== Steps by steps
 
 * Install gem
-$gem install rails-api
+$ gem install rails-api
 
 * Create new api
 $ rails-api new todo
