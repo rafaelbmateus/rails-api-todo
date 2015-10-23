@@ -16,25 +16,23 @@ Activitys todo:
 
 ==== Steps by steps
 
-# Install gem
-$ gem install rails-api
+* Install gem
+$gem install rails-api
 
-# No used!
-# $ rbenv rehash
-
-# Create new api
+* Create new api
 $ rails-api new todo
 
-# Open api
+* Open api
 $ cd todo/
 
-# Generate scaffold task
+* Generate scaffold task
 $ rails g scaffold task name
 
+* Create table
 $ rake db:migrate
 
-# Kill all address already
+* Kill all address already
 $ killall ruby
 
-# Initialize server
+* Initialize server
 $ rails server -p $PORT -b $IP
