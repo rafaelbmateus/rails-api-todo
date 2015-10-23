@@ -13,3 +13,28 @@ rails server -p $PORT -b $IP
 Activitys todo:
 * Create edit page todo
 * Destroy todo
+
+==== Steps by steps
+
+# Install gem
+$ gem install rails-api
+
+# No used!
+# $ rbenv rehash
+
+# Create new api
+$ rails-api new todo
+
+# Open api
+$ cd todo/
+
+# Generate scaffold task
+$ rails g scaffold task name
+
+$ rake db:migrate
+
+# Kill all address already
+$ killall ruby
+
+# Initialize server
+$ rails server -p $PORT -b $IP
