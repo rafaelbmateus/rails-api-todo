@@ -14,7 +14,7 @@ Activitys todo:
 * Create edit page todo
 * Destroy todo
 
-==== Steps by steps
+==== Step by step
 
 * Install gem
 $ gem install rails-api
